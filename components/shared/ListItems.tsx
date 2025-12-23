@@ -21,11 +21,11 @@ export function ListItems() {
       >
         <AccordionTrigger className="w-full flex justify-between items-center">
           <div className="w-full flex items-center justify-between">
-            <h4 className="text-primary-foreground text-base font-medium">
+            <h4 className="text-primary-foreground md:text-base text-sm font-medium">
               Profhilo
             </h4>
 
-            <h5 className="text-[#666666] text-sm font-normal">2 available</h5>
+            <h5 className="text-[#666666] md:text-sm text-xs font-normal">2 available</h5>
           </div>
         </AccordionTrigger>
       </AccordionItem>
@@ -35,11 +35,11 @@ export function ListItems() {
       >
         <AccordionTrigger className="w-full flex justify-between items-center">
           <div className="w-full flex items-center justify-between">
-            <h4 className="text-primary-foreground text-base font-medium">
+            <h4 className="text-primary-foreground md:text-base text-sm font-medium">
               Skincare
             </h4>
 
-            <h5 className="text-[#666666] text-sm font-normal">1 available</h5>
+            <h5 className="text-[#666666] md:text-sm text-xs font-normal">1 available</h5>
           </div>
         </AccordionTrigger>
       </AccordionItem>
@@ -49,11 +49,11 @@ export function ListItems() {
       >
         <AccordionTrigger className="w-full flex justify-between items-center">
           <div className="w-full flex items-center justify-between">
-            <h4 className="text-primary-foreground text-base font-medium">
+            <h4 className="text-primary-foreground md:text-base text-sm font-medium">
               Chemical peel
             </h4>
 
-            <h5 className="text-[#666666] text-sm font-normal">3 available</h5>
+            <h5 className="text-[#666666] md:text-sm text-xs font-normal">3 available</h5>
           </div>
         </AccordionTrigger>
       </AccordionItem>
@@ -63,11 +63,11 @@ export function ListItems() {
       >
         <AccordionTrigger className="w-full flex justify-between items-center text-[#929292]">
           <div className="w-full flex items-center justify-between">
-            <h4 className="text-[#929292] text-base font-medium">
+            <h4 className="text-[#929292] md:text-base text-sm font-medium">
               Mesotherapy
             </h4>
 
-            <h5 className="text-[#929292] text-sm font-normal">
+            <h5 className="text-[#929292] md:text-sm text-xs font-normal">
               Not compatible
             </h5>
           </div>
@@ -79,11 +79,11 @@ export function ListItems() {
       >
         <AccordionTrigger className="w-full flex justify-between items-center text-[#929292]">
           <div className="w-full flex items-center justify-between">
-            <h4 className="text-[#929292] text-base font-medium">
+            <h4 className="text-[#929292] md:text-base text-sm font-medium">
               Microneedling/dermapen
             </h4>
 
-            <h5 className="text-[#929292] text-sm font-normal">
+            <h5 className="text-[#929292] md:text-sm text-xs font-normal">
               Not compatible
             </h5>
           </div>

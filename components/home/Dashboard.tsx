@@ -2,16 +2,17 @@ import React from "react";
 import { MainItem } from "../shared/MainItem";
 import Filters from "../shared/Filters";
 import { ListItems } from "../shared/ListItems";
+import Summery from "./Summery";
 
 const Dashboard = () => {
   return (
-    <div className="w-full flex justify-center items-start gap-6">
-      <div className="w-[60%] bg-background-secondary rounded-[8px] py-8 px-6 flex flex-col gap-6">
-        <h5 className="text-primary-foreground text-lg font-medium">
+    <div className="w-full flex md:flex-row flex-col justify-center items-start gap-6">
+      <div className="w-full md:w-[60%] bg-background-secondary rounded-[8px] py-8 px-6 flex flex-col gap-6">
+        <h5 className="text-primary-foreground md:text-lg text-base font-medium">
           Selected treatment
         </h5>
         <MainItem />
-        <h5 className="text-primary-foreground text-lg font-medium">
+        <h5 className="text-primary-foreground md:text-lg text-base font-medium">
           Add additional treatments
         </h5>
         <Filters
@@ -29,7 +30,9 @@ const Dashboard = () => {
         />
         <ListItems />
       </div>
-      <div className="w-[40%] bg-background-secondary rounded-[8px] py-8 px-6"></div>
+      <div className="w-full md:w-[40%] bg-background-secondary rounded-[8px] py-8 px-6">
+        <Summery />
+      </div>
     </div>
   );
 };

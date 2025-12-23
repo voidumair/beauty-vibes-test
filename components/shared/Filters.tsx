@@ -6,7 +6,7 @@ const Filters = ({ items }: { items: string[] }) => {
       {items.map((item, index) => (
         <button
           key={index}
-          className={`px-3 py-1 rounded-full border font-medium text-sm ${index === 0 ? "text-white bg-black border-black" : "text-secondary-foreground bg-background-secondary border-[#DEDEDE]"}`}
+          className={`px-3 py-1 rounded-full border font-medium md:text-sm text-xs ${index === 0 ? "text-white bg-black border-black" : "text-secondary-foreground bg-background-secondary border-[#DEDEDE]"}`}
         >
           {item}
         </button>

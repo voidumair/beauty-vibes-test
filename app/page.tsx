@@ -1,6 +1,5 @@
 import Dashboard from "@/components/home/Dashboard";
 import Heading from "@/components/shared/Heading";
-import Image from "next/image";
 
 export default function Home() {
   return (
