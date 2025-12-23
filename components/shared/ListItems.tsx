@@ -80,7 +80,7 @@ export function ListItems() {
         <AccordionTrigger className="w-full flex justify-between items-center text-[#929292]">
           <div className="w-full flex items-center justify-between">
             <h4 className="text-[#929292] md:text-base text-sm font-medium">
-              Microneedling/dermapen
+              Microneedling
             </h4>
 
             <h5 className="text-[#929292] md:text-sm text-xs font-normal">
