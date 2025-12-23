@@ -7,7 +7,7 @@ import Summery from "./Summery";
 const Dashboard = () => {
   return (
     <div className="w-full flex md:flex-row flex-col justify-center items-start gap-6">
-      <div className="w-full md:w-[60%] bg-background-secondary rounded-[8px] py-8 px-6 flex flex-col gap-6">
+      <div className="w-full md:w-[60%] bg-background-secondary rounded-[8px] py-8 md:px-6 px-3 flex flex-col gap-6">
         <h5 className="text-primary-foreground md:text-lg text-base font-medium">
           Selected treatment
         </h5>
@@ -30,7 +30,7 @@ const Dashboard = () => {
         />
         <ListItems />
       </div>
-      <div className="w-full md:w-[40%] bg-background-secondary rounded-[8px] py-8 px-6">
+      <div className="w-full md:w-[40%] bg-background-secondary rounded-[8px] py-8 md:px-6 px-3">
         <Summery />
       </div>
     </div>
